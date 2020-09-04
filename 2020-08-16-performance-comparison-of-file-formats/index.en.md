@@ -1,31 +1,6 @@
----
-title: Performance comparison of different file formats 
-permalink: performance-comparison-of-file-formats
-description: Compare the performance of different file formats (ORC, Parquet, CSV, JSON, AVRO) in Hive engine
-lang: en
-author: aida
-date: 2020-08-14
-image: feature/file-formats.png
-categories:
-  - big-data
-  - data-engineering
-  - data-science
-tags:
-  - apache-avro
-  - apache-hadoop
-  - apache-hdfs
-  - apache-hive
-  - apache-mapreduce
-  - apache-orc
-  - apache-parquet
-  - automation
-  - batch
-  - data-structures
-  - data-warehouse
-  - file-format
-  - json
-  - metrics
----
+
+# title: Performance comparison of different file formats 
+
 
 In the earlier [article](https://www.adaltas.com/en/2020/07/23/benchmark-study-of-different-file-format/), we covered theoretical description of few file formats about their design, use cases, which specific data characteristics it supports, and so on. For example, in HDFS-enabled applications like [MapReduce](/en/tag/MapReduce), an huge bottleneck is how to manage certain processes while optimizing the storage cost, data processing, IO cost etc. thanks to an appropriate choice of file format. 
 
