@@ -1,32 +1,4 @@
----
-title: Performance comparison of different file formats
-permalink: performance-comparison-of-file-formats
-description: Compare the performance of different file formats (ORC, Parquet, CSV, JSON, AVRO) in Hive engine
-lang: en
-author: aida
-date: 2020-08-14
-image: feature/file-format-storage.png
-categories:
-  - data-engineering
-  - data-science
-tags:
-  - big-data
-  - apache-avro
-  - apache-hdfs
-  - apache-hive
-  - apache-orc
-  - apache-parquet
-  - data-lake
-  - file-format
-  - json
-  - ?metrics
-  - ?data-structures
-  - ?data-warehouse
-  - ?apache-hadoop
-  - ?automation
-  - ?batch
-  - ?apache-mapreduce
----
+# Performance comparison of different file formats (Storage)
 
 Choosing an appropriate file formats is essential, whether your data transits on the wire or is stored at rest. Each file format comes with its own advantages and disadvantages. We covered them in a precedent article presenting and comparing the [most popular file formats in Big data](/en/2020/07/23/benchmark-study-of-different-file-format/). In a follow up article, we will compare their performance according to multiple scenarios. The compression used for a given format greatly impact the query performances. This article will prepare the tables needed for this follow up article and takes the opportunity to compare the compression algorithms in term of storage spaces and generation time. It will also helps us to select the most appropriate compression algorithms for each format.
 
