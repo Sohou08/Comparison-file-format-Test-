@@ -220,7 +220,7 @@ select * from trip_data;
 ## Results
 
 Dataset | Format-codec | Compressed | Raw size (GB) | Storage ratio | Duration time (s) | CPU Time (s) 
---- |  --- | --- | --- |  --- | --- 
+--- |  --- | --- | --- |  --- | --- | --- 
 Trip data | CSV            |no  | 86.8  | 39%  |      |
 Trip data | CSV-Lz4        |yes | 17.2  | 8%   | 140  | 4002
 Trip data | CSV-Snappy     |yes | 16.5  | 7%   | 147  | 4007
@@ -243,7 +243,7 @@ Trip data | Parquet-Snappy |yes | 58.1  | 26%  | 299	| 8014
 
 
 Dataset | Format-codec | Compressed | Raw size (GB) | Storage ratio | Duration time (s) | CPU Time (s) 
---- |  --- | --- | --- |  --- |  --- 
+--- |  --- | --- | --- |  --- |  --- |  --- 
 Wikipedia | JSON           |no  | 43.8 | 100% |      |	
 Wikipedia | JSON-Lz4       |yes | 5.9  | 21%  | 1978 | 2743
 Wikipedia | JSON-Snappy    |yes | 6.5  | 15%  | 1928 | 2567
